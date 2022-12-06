@@ -1,0 +1,223 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    box-sizing: border-box;
+    font-size: 18px;
+}
+
+body {
+    background-color: #fffdf4;
+    transition: background 0.3s linear;
+    height: 100vh;
+}
+
+/*body.dark{
+background-color: #797979;
+color: rgb(0, 0, 0);
+}*/
+.navbar {
+    margin: 0px;
+}
+
+.margincenter {
+    margin-top: 15%;
+}
+
+.formloginecad {
+    background-color: #27343d;
+    color: whitesmoke;
+    text-decoration: none;
+    box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.3);
+
+}
+
+.bntnotokColor {
+    background-color: #27343d;
+    color: whitesmoke;
+}
+
+.bntokColor {
+    background-color: #2c5e32;
+    color: whitesmoke;
+}
+
+.tamanho_logo {
+    padding: 10px;
+    width: 100px;
+    height: 80px;
+}
+
+.divirframe {
+    height: 100%;
+    width: 100%;
+}
+
+.blue-color-custum {
+    background-color: rgb(127, 161, 255);
+}
+
+.borderbntpg {
+    font: white;
+    background-color: #27343d;
+    border: 1px solid white;
+    border-radius: 10px;
+}
+
+.border-bnt-mn {
+    text-align: center;
+    font: white;
+    border: 1px solid white;
+    border-radius: 10px;
+    background-color: rgb(127, 161, 255);
+}
+
+.text-decoration-none {
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.flexMain {
+    display: flex;
+    align-items: center
+}
+
+.flex1 {
+    flex: 1
+}
+
+.flex2 {
+    flex: 2
+}
+
+.flex3 {
+    flex: 3
+}
+
+button.siteLink {
+    margin-left: -5px;
+    border: none;
+    padding: 24px;
+    display: inline-block;
+    min-width: 115px;
+}
+
+.whiteLink {
+    background: #fff;
+}
+
+.whiteLink:active {
+    background: #000;
+    color: #fff;
+}
+
+.blackLink {
+    color: #fff;
+    background: #232323;
+    transition: all 300ms linear;
+}
+
+.blackLink:active {
+    color: #000;
+    background: #fff
+}
+
+#siteBrand {
+    font-family: impact;
+    letter-spacing: -1px;
+    font-size: 32px;
+    color: #252525;
+    line-height: 1em;
+}
+
+#menuDrawer {
+    background: #fff;
+    position: fixed;
+    height: 100vh;
+    overflow: auto;
+    z-index: 12312;
+    top: 0;
+    left: 0;
+    border-right: 1px solid #eaeaea;
+    min-width: 25%;
+    max-width: 320px;
+    width: 100%;
+    transform: translateX(-100%);
+    transition: transform 200ms linear;
+}
+
+#mainNavigation {
+    transition: transform 200ms linear;
+    background: #fff;
+}
+
+.drawMenu>#menuDrawer {
+    transform: translateX(0%);
+}
+
+.drawMenu>#mainNavigation {
+    transform: translateX(25%);
+}
+
+.fa-times {
+    cursor: pointer
+}
+
+a.nav-menu-item:hover {
+    margin-left: 2px;
+    border-left: 10px solid black;
+}
+
+a.nav-menu-item {
+    transition: border 200ms linear;
+    text-decoration: none;
+    display: block;
+    padding: 18px;
+    padding-left: 32px;
+    border-bottom: 1px solid #eaeaea;
+    font-weight: bold;
+    color: #343434
+}
+
+select.noStyle {
+    border: none;
+    outline: none
+}
+
+/* style getulio 
+.dp-menu ul li {
+float: left;
+width: 135px;
+height: 40px;
+text-align: center;
+line-height: 40px;
+display: block;
+text-transform: uppercase;
+}
+
+.dp-menu ul li:hover {
+border-top: 3px solid #00fb64;
+}
+
+.dp-menu ul li a:hover {
+color: #00c8ff;
+}
+
+.dp-menu ul {
+padding: 0;
+}
+
+.dp-menu ul ul {
+display: none;
+}
+
+.dp-menu ul li:hover>ul {
+display: block;
+}
+
+.dp-menu ul li a {
+text-decoration: none;
+}
+
+
+*/

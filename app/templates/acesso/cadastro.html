@@ -1,0 +1,40 @@
+{% extends 'estrutura/base.html' %}
+
+{% block content %}
+<div class="row justify-content-center  align-items-center vhtamanho">
+  <div class="col-12 col-md-8 col-lg-6 col-xl-5 col-xxl-5">
+    <form name="form-users" id="formUsers" class="rounded-4 py-5 px-3  formloginecad" action="/store/" method="post">
+      <div class="col-10 mt-8 m-auto">
+        <h3 class="textcenter"> Cadastro de Usuário </h3>
+
+        {% if msg %}
+        <div class="alert {{class}}">
+          {{msg}}
+        </div>
+
+        {% endif %}
+
+        {% csrf_token %}
+
+        <input type="text" class="form-control mt-4" id="name" name="name" placeholder="Nome do Usuário">
+        <input type="text" class="form-control mt-4" id="user" name="user" placeholder="Usuário">
+        <input type="password" class="form-control mt-4" id="password" name="password" placeholder="Senha">
+        <input type="password" class="form-control mt-4" id="password-conf" name="password-conf"
+          placeholder="Confirme a senha">
+        <!-- Email -->
+        <input type="email" class="form-control mt-4" id="email" name="email" placeholder="Digite seu email">
+
+        <div class="row">
+          <div class="col-12 col-md-6">
+            <input type="submit" class="btn bntokColor mt-3 w-100" value="Cadastrar">
+          </div>
+          <div class="col-12 col-md-6">
+            <a class="btn btn-dark mt-3 w-100" href="/telaLogin/">Faça Login</a>
+          </div>
+        </div>
+      </div>
+    </form>
+  </div>
+</div>
+
+{% endblock%}

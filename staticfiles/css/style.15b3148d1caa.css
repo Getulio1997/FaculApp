@@ -1,0 +1,86 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    box-sizing: border-box;
+    font-size: 18px;
+}
+body{
+    background-color: #fffdf4;
+    transition: background 0.3s linear;
+    height: 83.3vh;
+}
+
+/*body.dark{
+    background-color: #797979;
+    color: rgb(0, 0, 0);
+}*/
+.navbar{
+    margin: 0px;
+}
+.margincenter{
+    margin-top: 15%;
+}
+.formloginecad{
+    background-color: #27343d;
+    color: whitesmoke;
+    text-decoration: none;
+    box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.3) ;
+
+}
+.bntnotokColor{
+    background-color: #27343d;
+    color: whitesmoke;
+}
+.bntokColor{
+    background-color: #2c5e32;
+    color: whitesmoke;
+}
+.tamanho_logo{
+    padding: 10px;
+    width: 100px;
+    height: 80px;
+}
+
+.divirframe{
+    height: 100%;
+    width: 100%;
+}
+
+/* style getulio 
+.dp-menu ul li {
+    float: left;
+    width: 135px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    display: block;
+    text-transform: uppercase;
+}
+
+.dp-menu ul li:hover {
+    border-top: 3px solid #00fb64;
+}
+
+.dp-menu ul li a:hover {
+    color: #00c8ff;
+}
+
+.dp-menu ul {
+    padding: 0;
+}
+
+.dp-menu ul ul {
+    display: none;
+}
+
+.dp-menu ul li:hover>ul {
+    display: block;
+}
+
+.dp-menu ul li a {
+    text-decoration: none;
+}
+
+
+*/ 

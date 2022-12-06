@@ -1,0 +1,85 @@
+/*--------------- HTML ----------------*/
+* {
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    box-sizing: border-box;
+    font-size: 18px;
+}
+
+body {
+    background-color: #ffffff;
+    transition: background 0.3s linear;
+    height: 100vh;
+}
+
+body.dark {
+    background-color: #797979;
+    color: rgb(0, 0, 0);
+}
+/*--------------- FIM HTML --------------*/
+/*|||||||||||||||||||||||||||||||||||||||*/
+/*--------------- NAVBAR ----------------*/
+.tamanho_logo {
+    padding: 5px;
+    width: 85px;
+    height: 65px;
+}
+
+/*Botões navbar*/
+.bntnotokColor {
+    background-color: #408dc4;
+    color: whitesmoke;
+}
+
+/*------------- FIM NAVBAR ---------------*/
+/*||||||||||||||||||||||||||||||||||||||||*/
+/*------------- TELA LOGIN ---------------*/
+
+.formloginecad {
+    background-color: #27343d;
+    color: whitesmoke;
+    text-decoration: none;
+    box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.3);
+
+}
+
+/*Botão entrar tela login*/
+.bntokColor {
+    background-color: #36be46;
+    color: whitesmoke;
+}
+
+
+/*----------- FIM TELA LOGIN -------------*/
+/*||||||||||||||||||||||||||||||||||||||||*/
+/*----------- MAIN CONTENT ---------------*/
+
+.folderPrincipal {
+    width: 100%;
+}
+
+.divirframe {
+    height: 100%;
+    width: 100%;
+}
+
+/*--------- FIM MAIN CONTENT -------------*/
+/*||||||||||||||||||||||||||||||||||||||||*/
+/*---------- TELAS DAS BANCAS ------------*/
+
+.borderbntpg {
+    font: white;
+    background-color: #884856;
+    border: 1px solid white;
+    border-radius: 10px;
+}
+
+/*--------- FIM TELAS DAS BANCAS ---------*/
+/*||||||||||||||||||||||||||||||||||||||||*/
+/*---------  ---------*/
+
+
+
+/*--------- FIM  ---------*/
+/*||||||||||||||||||||||||||||||||||||||||*/

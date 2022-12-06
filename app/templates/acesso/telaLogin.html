@@ -1,0 +1,47 @@
+{% extends 'estrutura/base.html' %}
+
+{% block content %}
+<div class="row justify-content-center align-items-center vhtamanho">
+  <div class=" col col-12 col-md-8 col-lg-6 col-xl-5 col-xxl-5">
+    <form class="rounded-4 py-5 px-3  formloginecad" method="post" action="/dologin/">
+      {% if msg %}
+
+      <div class="alert {{class}}">
+        {{msg}}
+      </div>
+
+      {% endif %}
+
+      <div class="row">
+        <div class="col-10 m-auto">
+          <label for="usuario form-label" class="col-12"> Usuário:
+            <input class="form-control mt-1 " type="text" name="user" id="user">
+          </label>
+        </div>
+      </div>
+      <div class="row mt-4 ">
+        <div class="col-10 m-auto">
+          <label for="senha form-label" class="col-12"> Senha:
+            <input class="form-control mt-1" type="password" name="password" id="password">
+          </label>
+        </div>
+      </div>
+      <div class="row mt-2 justify-content-center">
+        <div class="col-auto">
+          <a href="#">Esqueci minha senha</a>
+        </div>
+      </div>
+      <div class="row col-10 m-auto">
+        <div class="col-12 col-md-6">
+          <button class="btn bntokColor mt-3 w-100" type="submit" value="entrar">Entrar</button>
+        </div>
+        <div class="col-12 col-md-6">
+          <button class="btn btn-dark mt-3 w-100" type="button" value="cadastrar"> <a
+              href="/cad/">Cadastre-se</a></button>
+        </div>
+      </div>
+      {% csrf_token %}
+    </form>
+  </div>
+</div>
+{% endblock %}
